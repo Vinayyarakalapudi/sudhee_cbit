@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBIT Sudhee 2K25</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-image: url('cbit.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: antiquewhite;
+            margin: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #343a40;
+            padding: 20px;
+            color: white;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url(tech.jpeg);
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #424243;
+            color: wheat;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: gray;
+        }
+        section {
+            padding: 40px 20px;
+            background-color: rgba(52, 58, 64, 0.8);
+            color: antiquewhite;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        h2{
+            background-color: gray;
+        }
+        footer {
+            text-align: center;
+            background-color: #343a40;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CBIT SUDHEE 2K25</h1>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Sudhee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#events">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+
+    <section id="home" class="hero" >
+        <h1>Welcome to CBIT SUDHEE 2K25</h1>
+        <p>Experience innovation and creativity in technology at Sudhee.</p>
+        <a href="#events" class="btn">Explore Events</a>
+    </section>
+
+    <section id="about">
+        <h2 style="text-align: center;  ">About Sudhee</h2>
+        <p>SUDHEE is the annual national-level technical festival organized by Chaitanya Bharathi Institute of Technology (CBIT). It features a variety of events such as hackathons, workshops, and competitions aimed at fostering innovation and creativity among students.</p>
+        <ul>
+            <li>Event Type: National-level technical festival</li>
+            <li>Organized By: Chaitanya Bharathi Institute of Technology (CBIT)</li>
+            <li>Focus: Innovation and creativity in technology</li>
+        </ul>
+    </section>
+
+
+
+    <section id="events">
+        <h2 style="text-align: center;">Events</h2>
+        <p style="text-align: center;">Join us for exciting events including coding competitions, workshops, and many other activities.</p>
+    
+        <div class="menu-items" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="cse1.jpeg" alt="CSE Events" style="width: 100%; height:50%; border-radius: 10px;">
+                <h3>CSE</h3>
+                <p>Explore cutting-edge coding competitions and AI workshops.</p>
+                <a href="./computer.html" class="btn btn-secondary">View CSE Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="ece1.jpeg" alt="ECE Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>ECE</h3>
+                <p>Experience electronics innovations and robotics challenges.</p>
+                <a href="./ece.html" class="btn btn-secondary">View ECE Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="aids1.jpeg" alt="AIDS Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>AIDS</h3>
+                <p>Join sessions on data analytics and cybersecurity in real time applications.</p>
+                <a href="./AIDS.html" class="btn btn-secondary">View AIDS Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="eee1.jpeg" alt="EEE Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>EEE</h3>
+                <p>Engage in power systems and renewable energy workshops.</p>
+                <a href="./EEE.html" class="btn btn-secondary">View EEE Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="chemical1.png" alt="Chemical Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>Chemical</h3>
+                <p>Explore chemical process design and industrial safety workshops.</p>
+                <a href="./CHEMICAL.html" class="btn btn-secondary">View Chemical Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="mba1.jpeg" alt="MBA Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>MBA</h3>
+                <p>Participate in business strategy and marketing competitions.</p>
+                <a href="./MBA.html" class="btn btn-secondary">View MBA Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="bio1.jpeg" alt="Biotechnology Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>Biotechnology</h3>
+                <p>Dive into molecular biology and bioprocess engineering sessions.</p>
+                <a href="./BIO.html" class="btn btn-secondary">View Biotechnology Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="civil1.jpeg" alt="Civil Engineering Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>Civil</h3>
+                <p>Engage in sustainable construction and smart city design workshops.</p>
+                <a href="./civil.html" class="btn btn-secondary">View Civil Events</a>
+            </div>
+    
+            <div class="menu-item" style="flex: 1 1 calc(32% - 20px); padding: 20px; background-color: rgb(72, 71, 71); border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <img src="it1.jpeg" alt="IT Events" style="width: 100%; height: 50%; border-radius: 10px;">
+                <h3>IT</h3>
+                <p>Discover cloud computing and blockchain technology workshops.</p>
+                <a href="./it.html" class="btn btn-secondary">View IT Events</a>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+    <section id="contact" style="text-align: center;">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:contact@cbit_sudhee.com" style="color: yellow;">contact@cbit_sudhee.com</a></p>
+        <p>Phone: +91 7685623487</p>
+        <p>Address: Hyderabad 500075</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 CBIT SUDHEE. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
